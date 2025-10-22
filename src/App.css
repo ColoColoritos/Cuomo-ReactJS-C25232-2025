@@ -1,0 +1,51 @@
+h1, h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+p {
+  text-align: center;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #8a4418;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #b85c28;
+}
+
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #b85c28;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  outline: none;
+}
+button:hover {
+  background-color: #8a4418;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}

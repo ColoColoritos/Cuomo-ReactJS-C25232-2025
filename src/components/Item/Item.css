@@ -1,0 +1,31 @@
+.product-item {
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(70, 70, 70, 0.1);
+  transition: transform 0.2s ease;
+  align-items: stretch;     
+  min-height: 335px;
+  justify-items: center;
+  img {
+    width: 100%;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+.product-item:hover {
+  border-radius: 8px;
+  box-shadow: rgba(243, 211, 207,  0.3) 0 0 20px 10px;
+  border: none;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
