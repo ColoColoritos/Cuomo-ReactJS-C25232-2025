@@ -1,7 +1,7 @@
-.item-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
-  padding: 20px;
+.spinner-border.text-primary-pink {
+    color: var(--color-primary-pink) !important;
+}
+
+.text-muted {
+    color: var(--color-text-dark) !important;
 }

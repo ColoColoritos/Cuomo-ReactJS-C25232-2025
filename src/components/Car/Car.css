@@ -1,0 +1,33 @@
+.pastel-cart-item {
+    background-color: var(--color-bg-main);
+    border: none;
+    border-bottom: 1px solid var(--color-secondary-lavender);
+    padding: 1rem 1.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.pastel-cart-item:hover {
+    background-color: var(--color-secondary-yellow);
+}
+
+.cart-item-image {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid var(--color-secondary-lavender);
+}
+
+.btn-outline-danger {
+    color: var(--color-primary-pink) !important;
+    border-color: var(--color-primary-pink) !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--color-primary-pink) !important;
+    color: white !important;
+    border-color: var(--color-primary-pink) !important;
+}
+
+.bi-cart-x {
+    color: var(--color-secondary-lavender);
+}

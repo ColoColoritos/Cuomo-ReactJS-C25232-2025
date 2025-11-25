@@ -1,0 +1,40 @@
+.count-buttons .btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-secondary-pastel {
+    color: var(--color-text-dark);
+    border-color: var(--color-secondary-lavender);
+    background-color: transparent;
+}
+
+.btn-outline-secondary-pastel:hover:not(:disabled) {
+    background-color: var(--color-secondary-lavender);
+    color: var(--color-text-dark);
+    border-color: var(--color-secondary-lavender);
+    box-shadow: 0 0 8px rgba(230, 230, 250, 0.7);
+}
+
+.btn-outline-secondary-pastel:disabled {
+    background-color: var(--color-text-light);
+    color: var(--color-text-dark);
+    border-color: var(--color-text-light);
+    box-shadow: 0 0 8px rgba(230, 230, 250, 0.7);
+}
+
+.btn-outline-secondary-pastel:active:focus {
+    background-color: var(--color-secondary-lavender) !important;
+    color: var(--color-text-dark) !important;
+    border-color: var(--color-secondary-lavender) !important;
+    box-shadow: 0 0 8px rgba(230, 230, 250, 0.7) !important;
+}
+
+.count-buttons span {
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+}

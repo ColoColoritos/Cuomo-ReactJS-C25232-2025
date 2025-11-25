@@ -1,0 +1,23 @@
+.pastel-navbar {
+    background-color: var(--color-secondary-lavender) !important;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.logo-img {
+    height: 65px; 
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .logo-img {
+    transform: scale(1.05) rotate(-3deg); 
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; 
+}
+.navbar-toggler-icon {
+    filter: opacity(60%); 
+}

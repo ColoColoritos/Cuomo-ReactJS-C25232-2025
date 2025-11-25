@@ -1,0 +1,42 @@
+.pastel-form-card {
+    background-color: var(--color-bg-main);
+    border: none;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--box-shadow-soft);
+}
+
+.form-label {
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+}
+
+.pastel-form-control {
+    border-color: var(--color-secondary-lavender);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+    transition: all 0.2s ease;
+}
+
+.pastel-form-control:focus {
+    border-color: var(--color-primary-pink);
+    box-shadow: 0 0 0 0.25rem rgba(255, 196, 214, 0.4);
+    background-color: #fffafc;
+}
+
+.invalid-feedback {
+    font-family: var(--font-family-main);
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+.spinner-border.spinner-border-sm {
+    color: var(--color-text-button-cta) !important;
+}
+
+.pastel-form-card h2 {
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+}

@@ -1,6 +1,25 @@
-.item-detail {
-  background-color: #f9f9f9;
-  padding: 24px 40px;
-  display: flex;
-  justify-content: center;
+.item-detail-pastel-card {
+    border: none;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--box-shadow-soft);
+    background-color: var(--color-bg-main);
+}
+
+.item-detail-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+.item-detail-pastel-card h1 {
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+}
+
+.item-detail-pastel-card p {
+    font-family: var(--font-family-main);
+    color: var(--color-text-dark);
+}
+
+.text-primary-pink-darker {
+    color: #DD8899;
 }
